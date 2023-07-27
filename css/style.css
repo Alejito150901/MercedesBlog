@@ -12,16 +12,57 @@ body{
     background-color: #efefef;
 }
 header{
-    background-color: #364552;
+    background-color: #28a09a;
     padding: 3rem 2rem;
+    padding-top: 150px;
+}
+header p{
+    color:#fff;
+    margin-top: 10px;
 }
 .mercedes{
     font-size: 4rem;
     text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    text-decoration: none;
+    list-style: none;
+    padding: 15px;
+    background-color: rgba(40, 160, 154, 0.85);
+    position:fixed;
+    top:0;
+    width:100%;
+}
+li{
+    padding: 10px
+}
+.estilo{
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    margin: 15px;
+}
+.estilo a{
+    text-decoration: none;
+    color: #fff;
+}
+nav ul :hover{
+    background-color: #000000;
+}
+nav ul img{
+    display: flex;
+    justify-content: start;
+    align-items: start;
 }
 .container{
     width: 400px;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 section article{
     transition: box-shadow 0.3s ease-in;
@@ -30,6 +71,7 @@ section article{
     border-radius: 0.5rem;
     padding: 0.25rem 0;
     cursor: crosshair;
+    width: 400px;
 }
 section article:hover{
     box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
